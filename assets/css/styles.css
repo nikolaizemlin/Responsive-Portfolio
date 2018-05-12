@@ -1,0 +1,148 @@
+img {
+    float: left;
+    
+}
+h2 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+}
+    h2 span {
+        color: white;
+        font: bold 24px/45px Helvetica, Sans-Serif;
+        letter-spacing: 1px;
+        background: #4aaaa5; 
+        padding: 10px;
+    }
+div {
+    position: static;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+li1 {
+    font-weight: bold;
+    color: white;
+    margin-left: 25%;
+    padding: 14px 16px;
+    background-color: #4aaaa5;
+    float: Left;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    }
+li {
+    float: right;
+}
+li a {
+    font-weight: bold;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+            background-color: #4aaaa5;
+}
+body {
+    background-color: lightgray;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+}
+
+aside {
+    position: center;
+    margin: 20px;
+    width: 960px;
+    height: 550px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #eee;
+    margin-bottom: 100px;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    border-top: 5px solid#4aaaa5;
+    text-align: center;
+    background: #666666;
+    font-size: small;
+    color: lightgray;
+}
+
+.bacon {
+ position: relative;
+ float: left;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-right: 196px;
+}
+@media screen and (min-width: 640px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+@media screen and (min-width: 768px) {
+    body {
+        background-color: lightpink;
+    }
+}
+@media screen and (min-width: 980px) {
+    body {
+        background-color: rebeccapurple;
+    }
+}
+* {
+    overflow: hidden;
+    margin: 0;
+}
+
+
+
+@keyframes circle {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(6)
+    }
+}
+
+.circle {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border: 20px solid CadetBlue;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    z-index: -1;
+}
+
+.one {
+    animation: circle 4s infinite linear;
+}
+
+.two {
+    animation: circle 3s infinite linear;
+}
+
+.three {
+    animation: circle 2s infinite linear;
+}
